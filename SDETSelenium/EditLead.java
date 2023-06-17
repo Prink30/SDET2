@@ -65,7 +65,7 @@ public class EditLead {
 		email.sendKeys("priyankabuvan3@gmail.com");
 		
 		Select state = new Select(driver.findElement(By.id("createLeadForm_generalStateProvinceGeoId")));
-		state.selectByVisibleText("Alabama");
+		state.selectByVisibleText("New York");
 		
 		WebElement createleadbtn = driver.findElement(By.className("smallSubmit"));
 		createleadbtn.click();
